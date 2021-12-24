@@ -1,0 +1,30 @@
+{
+  "name": "vue2",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite-plugin-vue2": "^1.9.0",
+    "vue": "2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "sass": "^1.45.1",
+    "vite": "^2.7.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/walkthroughjs.umd.js",
+  "module": "./dist/walkthroughjs.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/walkthroughjs.es.js",
+      "require": "./dist/walkthroughjs.umd.js"
+    }
+  }
+}

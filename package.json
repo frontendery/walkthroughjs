@@ -1,7 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "license": "AGPL-3.0",
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.0"
   }
 }
